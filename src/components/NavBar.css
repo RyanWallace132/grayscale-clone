@@ -1,0 +1,35 @@
+.header{
+    background-color: transparent;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-button{
+    background-color: transparent;
+    border-color: transparent;
+    color: #B3B3B3;
+    padding: 20px;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    right: 40vh;
+}
+.header-button:hover{
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+}
+.header-text{
+    font-size: 20px;
+    border-color: transparent;
+    background-color: transparent;
+    color: #C8C8C8;
+    position: relative;
+    left: 43vh;
+    top: 10px;
+}
+.header-text:hover{
+    cursor: pointer;
+}
+

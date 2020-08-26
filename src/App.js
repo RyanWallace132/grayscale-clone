@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react'
+import './components/Reset.css'
+import './App.css'
+import NavBar from './components/NavBar'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+
+
+  render(){
+    return(
+      <div className='background'>
+        <NavBar/>
+        <div className='main-content'>
+          <h1 className='grayscale'>GRAYSCALE</h1>
+          <h2 className='about-grayscale'>A free, responsive, one page Bootstrap theme <br/>created by Start Bootstrap.</h2>
+          <button className='get-started'>get started</button>
+        </div>
+      </div>
+      
+    )
+  }
 }
-
-export default App;
