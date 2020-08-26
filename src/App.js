@@ -3,10 +3,12 @@ import './components/Reset.css'
 import './App.css'
 import NavBar from './components/NavBar'
 
+
 export default class App extends Component {
 
 
   render(){
+    document.title = 'Grayscale'
     return(
       <div className='background'>
         <NavBar/>
