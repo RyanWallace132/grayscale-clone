@@ -13,8 +13,8 @@ export default class App extends Component {
         <div className='main-content'>
           <h1 className='grayscale'>GRAYSCALE</h1>
           <h2 className='about-grayscale'>A free, responsive, one page Bootstrap theme <br/>created by Start Bootstrap.</h2>
-          <button className='get-started'>get started</button>
         </div>
+        <button className='get-started'>get started</button>
       </div>
       
     )

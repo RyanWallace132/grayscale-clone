@@ -35,6 +35,9 @@
     font-family: "Nunito", "Segoe UI","Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .get-started{
+    position: relative;
+    left: 45%;
+    bottom: 0;
     padding: 1.25rem 2rem;
     font-size: 80%;
     text-transform: uppercase;
@@ -44,7 +47,6 @@
     background-color: #64a19d;
     border-radius: .25rem;
     line-height: 1.5;
-    transition: color ease-in-out;
 }
 .get-started:hover{
     cursor: pointer;
